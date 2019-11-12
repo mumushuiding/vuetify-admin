@@ -17,18 +17,9 @@
 export default {
   metaInfo () {
     return {
-      title: '福州日报社'
+      title: 'vuetify-admin'
     }
   }
-  // watch: {
-  //   $route: {
-  //     handler (val) {
-  //       console.log(val)
-  //       console.log(val.meta)
-  //     },
-  //     deep: true
-  //   }
-  // }
 }
 </script>
 

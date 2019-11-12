@@ -1,9 +1,9 @@
 <!--
   data: [
-    {id: 1, title: '福州日报社', children: []}
+    {id: 1, title: 'xx', children: []}
   ]
   初始化：（根据label值进行初始化）
-    department='福州日报社/日报/日报运营中心'
+    department='A/B/C'
    <material-cascader
                     :value.sync="departmentid"
                     :label.sync="department"
@@ -85,18 +85,13 @@ export default {
       },
       deep: true
     },
-    'data': {
+    data: {
       handler (val) {
         this.initial(val)
       },
       deep: true
     }
-    // value1 (val) {
-    //   this.$emit('update:value', val)
-    // },
-    // label1 (val) {
-    //   this.$emit('update:label', val)
-    // }
+
   },
   mounted () {
   },
