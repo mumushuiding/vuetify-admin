@@ -5,6 +5,7 @@
       :collapse-on-scroll="collapseOnScroll"
       color="grey darken-3"
       dark
+      max-height="80px"
     >
       <v-app-bar-nav-icon
         v-if="responsive"

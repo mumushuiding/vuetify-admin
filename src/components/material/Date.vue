@@ -6,17 +6,20 @@
       v-model="modal"
       :return-value.sync="date1"
       persistent
-      lazy
       width="290px"
       style="display: inline-block;width:100%"
     >
-      <v-text-field
-        slot="activator"
-        v-model="date1"
-        :label="label"
-        prepend-icon="mdi-alarm"
-        readonly
-      />
+      <template v-slot:activator="{ on }">
+        <v-text-field
+          slot="activator"
+          v-model="date1"
+          :label="label"
+          prepend-icon="mdi-alarm"
+          readonly
+          v-on="on"
+        />
+      </template>
+
       <v-date-picker
         id="datepicker"
         v-model="date1"
@@ -24,11 +27,9 @@
         locale="zh-cn">
         <v-spacer/>
         <v-btn
-          flat
           color="primary"
           @click="modal = false">取消</v-btn>
         <v-btn
-          flat
           color="primary"
           @click="$refs.dialog.save(date1)">确定</v-btn>
       </v-date-picker>

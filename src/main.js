@@ -17,6 +17,7 @@ import store from '@/store'
 import VueMessage from '@/views/components/message'
 // 全局确认框: this.$Confirm.confirm('hhhel')
 import VueConfirm from '@/views/components/confirm'
+
 Vue.use(VueMessage)
 Vue.use(VueConfirm)
 // Sync store with router

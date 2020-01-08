@@ -21,5 +21,9 @@ export default [
   {
     path: '/icons',
     view: 'Icons'
+  },
+  {
+    path: '/charts',
+    view: 'Charts'
   }
 ]

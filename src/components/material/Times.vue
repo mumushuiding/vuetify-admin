@@ -5,12 +5,14 @@
       v-model="hour1"
       :items="hours1"
       label="小时"
+      style="width:30px;"
       @change="change"
     />
     <v-autocomplete
       v-model="second1"
       :items="seconds1"
       label="秒"
+      style="width:30px;"
       @change="change"
     />
   </v-layout>

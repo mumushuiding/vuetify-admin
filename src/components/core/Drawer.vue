@@ -63,6 +63,11 @@ export default {
         text: '首页'
       },
       {
+        path: '/charts',
+        icon: 'mdi-view-dashboard',
+        text: '图表'
+      },
+      {
         path: '/icons',
         icon: 'mdi-view-dashboard',
         text: 'icon'
