@@ -2315,10 +2315,6 @@ chardet@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
 
-chartist@0.11.0, chartist@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/chartist/-/chartist-0.11.0.tgz#84ba5e05490d096d93dcfa9343ebc31ef6a3bd28"
-
 check-types@^8.0.3:
   version "8.0.3"
   resolved "https://registry.yarnpkg.com/check-types/-/check-types-8.0.3.tgz#3356cca19c889544f2d7a95ed49ce508a0ecf552"
@@ -8620,12 +8616,6 @@ vm-browserify@^1.0.1:
 vue-analytics@^5.8.0:
   version "5.12.3"
   resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.12.3.tgz#599bd05f9e69efd51645e9e74add81d8a26a88ea"
-
-vue-chartist@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/vue-chartist/-/vue-chartist-2.1.2.tgz#1a0ca5d516a9de7b51bf8290daaf7a57e4f493dc"
-  dependencies:
-    chartist "^0.11.0"
 
 vue-eslint-parser@^2.0.3:
   version "2.0.3"

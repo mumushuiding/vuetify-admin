@@ -4,15 +4,6 @@
     class="v-card--material-chart"
     v-on="$listeners"
   >
-    <chartist
-      slot="header"
-      :data="data"
-      :event-handlers="eventHandlers"
-      :options="options"
-      :ratio="ratio"
-      :responsive-options="responsiveOptions"
-      :type="type"
-    />
 
     <slot />
 
